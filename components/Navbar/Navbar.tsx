@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="w-full h-[98px] border-b-2 border-black-200 flex-center">
-      <div className="flex-between mx-16 grow max-w-screen-2xl">
+    <nav className="w-full py-[28px] border-b-2 border-black-200 flex-center">
+      <div className="flex-between mx-6 md:mx-16 grow max-w-screen-2xl">
         <Link href="/">
           <Image src="/jsm-logo.svg" alt="logo" width={55} height={55} />
         </Link>
